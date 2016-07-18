@@ -1,0 +1,195 @@
+/*---nav css------*/
+	#nav_wrap{
+		width: 100%;
+		height: 33px;
+		border-bottom: 2px solid #b1191a;
+		min-width: 1000px;
+	}
+	.mainnav{
+		position: relative;
+	}
+	.eco_index_all_shop{
+		width: 238px;
+		height: 33px;
+		line-height: 33px;
+		text-align: center;
+		color: #FFFFFF;
+		background: #aa1800;
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+	.second_mnue_wrap{
+		width: 238px;
+		height: 511px;
+		background: #222;
+		position: absolute;
+		left: 0;
+		top: 35px;
+		z-index: 100;
+	}
+	.mainnav_top{
+		float: left;
+		height: 33px;
+		line-height: 33px;
+		padding-left: 248px;
+	}
+	.mainnav_top li{
+		float: left;
+		padding: 0 13px;
+		margin: 0 5px;
+		background: #FFFFFF;
+		position: relative;
+	}
+	.mainnav_top li a{
+		display: block;
+		color: #333;
+	}
+	.mainnav_top li:hover{
+		background: #AA1800;
+	}
+	.mainnav_top li:hover a {
+		color: #FFFFFF;
+	}
+	.eco_hot_bg {
+		position: absolute;
+		top: -5px;
+		left: 60px;
+		width: 24px;
+		height: 16px;
+		background: url(../../img/common/tuihota.png)no-repeat center;
+	}
+	.second_nav{
+		padding: 0 11px;
+		width: 216px;
+		height: 62px;
+		color: #fff;
+	}
+	.second_nav_cont{
+		width: 100%;
+		height: 100%;
+		border-bottom: 1px #fff dashed;
+	}
+	@font-face {font-family: 'iconfont';
+	    src: url('iconfont.eot'); /* IE9*/
+	    src: url('iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	    url('iconfont.woff') format('woff'), /* chrome、firefox */
+	    url('iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+	    url('iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+	}
+	.iconfont{
+	    font-family:"iconfont" !important;
+	    font-size:16px;font-style:normal;
+	    -webkit-font-smoothing: antialiased;
+	    -webkit-text-stroke-width: 0.2px;
+	    -moz-osx-font-smoothing: grayscale;
+	}
+	
+	.second_nav_cont dt{
+		height: 26px;
+		width: 206px;
+		padding-top: 4px;
+	}
+	.second_nav_cont dd{
+		height: 26px;
+		width: 206px;
+		padding-top: 5px;
+	}  
+	.second_title {
+		width: 206px;
+		font-weight: normal;
+	}
+	.second_title a{
+		color: #FFFFFF;
+		font-size: 12px;
+		padding-left: 5px;
+	}
+	.gt {
+		float: right;
+		font-size: 16px;
+		color: #FFFFFF;
+	}
+	.second_nav_cont dd >a {
+		color: #fff;
+	}
+	.last_second_nav{
+		border-bottom: 0;
+	}
+	.sub_nav_third_wrap{
+		width: 690px;
+		height: 469px;
+		border-bottom: 2px #AA1800 solid;
+		border-right: 2px #AA1800 solid;
+		position: absolute;
+		left: 238px;
+		top: 0;
+		background: #FFFFFF;
+		z-index: 99;
+		padding: 20px;
+		display: none;
+	}
+	.sub_nav_third_title_h5{
+		float: left;
+		font-size: 12px;
+		color: #FF0000;
+		border-left:2px #f00 solid ;
+		padding-left: 3px;
+	}
+	.sub_nav_third_title >a{
+		float: right;
+		color: #999;
+	}
+	.sub_third_img a{
+		float: left;
+		padding: 1px;
+		border: 1px #eee solid;
+		border-left: 0;
+	}
+	.sub_third_img{
+		border-left: 1px #eee solid;
+		margin:5px 0 ;
+		margin-bottom: 20px;
+	}
+	.sub_nav_third_tip{
+		width: 322px;
+		height: 92px;
+		border-bottom:1px #eee dashed;
+		float: left;
+	}
+	.sub_nav_third_tip dt{
+		padding-top: 10px;
+	}
+	.sub_nav_third_tip dd{
+		padding-top: 10px;
+	}
+	.sub_nav_third_tip dd>a{
+		padding: 5px 8px 5px 0;
+		float: left;
+		color: #555;
+	}
+	.sub_margin_right {
+		margin-right: 40px;
+	}
+	
+	.second_nav a:hover{
+		color: #f00;
+	}
+	.second_nav:hover{
+		background: #fff;
+	}
+	.second_nav:hover .iconfont {
+		color: #FF0000;
+	}
+	.second_nav:hover .second_nav_cont a{
+		color: #555;
+	}
+	.second_nav:hover .second_nav_cont .second_title a{
+		color: #f00;
+	}
+	.second_nav:hover .sub_nav_third_wrap{
+		display: block;
+	}
+	.second_nav:hover .second_nav_cont dd a:hover{
+		color: #FF0000;
+	}
